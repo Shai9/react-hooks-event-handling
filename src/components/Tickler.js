@@ -6,6 +6,8 @@ function Tickler() {
   }
 
   return <button>Tickle me!</button>;
+  
+  <button onClick={tickle}>Tickle me!</button>;
 }
 
 export default Tickler;
